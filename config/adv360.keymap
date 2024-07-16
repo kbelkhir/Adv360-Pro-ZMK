@@ -53,7 +53,16 @@
         hyper: hyper {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_COMMAND>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_press>,
+                <&kp LEFT_CONTROL>,
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_press>,
+                <&kp LEFT_GUI>;
+
             label = "HYPER";
         };
     };
