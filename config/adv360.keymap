@@ -17,6 +17,8 @@
 
 #include "cust_keys.h"
 
+#define LHYPER LC(LA(LS(LEFT_GUI)))
+
 / {
     behaviors {
         #include "macros.dtsi"
