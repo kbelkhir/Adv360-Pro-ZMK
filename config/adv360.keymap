@@ -68,21 +68,21 @@
 
         default_layer {
             bindings = <
-&kp EQUAL                 &kp N1     &kp N2    &kp N3    &kp N4           &kp N5  &tog 0                                                                                      &mo 2          &kp N6  &kp N7          &kp N8        &kp N9    &kp N0         &kp MINUS
-&kp TAB                   &kp Q      &kp W     &kp E     &kp R            &kp T   &none                                                                                       &none          &kp Y   &kp U           &kp I         &kp O     &kp P          &kp BSLH
-&kp LC(LA(LS(LEFT_GUI)))  &kp A      &kp S     &kp D     &kp F            &kp G   &none      &kp LCTRL                 &kp LALT      &kp RIGHT_ALT  &kp RIGHT_CONTROL         &none          &kp H   &kp J           &kp K         &kp L     &kp SEMICOLON  &kp SQT
-&kp LSHFT                 &kp Z      &kp X     &kp C     &kp V            &kp B                                        &kp HOME      &kp END                                                 &kp N   &kp M           &kp COMMA     &kp DOT   &kp FSLH       &kp RSHFT
-&mo 1                     &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT_ARROW          &kp SPACE  &thmb_ht LEFT_ALT ESCAPE  &mo 1         &kp RIGHT_GUI  &thmb_ht RIGHT_ALT ENTER  &kp BACKSPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LBKT  &kp RBKT       &mo 1
+&kp EQUAL                 &kp N1     &kp N2    &kp N3    &kp N4           &kp N5  &tog 0                                                                                                      &mo 2          &kp N6  &kp N7          &kp N8        &kp N9    &kp N0         &kp MINUS
+&kp TAB                   &kp Q      &kp W     &kp E     &kp R            &kp T   &none                                                                                                       &none          &kp Y   &kp U           &kp I         &kp O     &kp P          &kp BSLH
+&kp LC(LA(LS(LEFT_GUI)))  &kp A      &kp S     &kp D     &kp F            &kp G   &none      &kp GRAVE                     &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp RIGHT_CONTROL         &none          &kp H   &kp J           &kp K         &kp L     &kp SEMICOLON  &kp SQT
+&kp LSHFT                 &kp Z      &kp X     &kp C     &kp V            &kp B                                            &kp HOME              &kp END                                                     &kp N   &kp M           &kp COMMA     &kp DOT   &kp FSLH       &kp RSHFT
+&kp LEFT_GUI              &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT_ARROW          &kp SPACE  &thmb_ht LEFT_CONTROL ESCAPE  &mo 1                 &kp RIGHT_GUI      &thmb_ht RIGHT_ALT ENTER  &kp BACKSPACE          &kp DOWN_ARROW  &kp UP_ARROW  &kp LBKT  &kp RBKT       &mo 1
             >;
         };
 
-        layer_fn {
+        dev {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 0                                      &mo 2   &kp F7  &kp F8                &kp F9            &kp F10            &kp F11                &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans                &trans            &trans             &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans                &trans            &trans             &trans                 &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans            &trans             &trans                 &trans
+&kp F1  &kp F2                &kp F3                 &kp F4            &kp F5             &kp F6  &tog 0                                      &mo 2   &kp F7  &kp F8                &kp F9                 &kp F10            &kp F11                &kp F12
+&trans  &trans                &trans                 &trans            &trans             &trans  &none                                       &none   &trans  &trans                &trans                 &trans             &trans                 &trans
+&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans                &trans                 &trans            &trans             &trans                  &trans      &trans                  &trans  &trans                &trans                 &trans             &trans                 &trans
+&trans  &trans                &trans                 &trans            &trans                     &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans                 &trans             &trans                 &trans
             >;
         };
 
